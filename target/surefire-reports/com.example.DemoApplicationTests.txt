@@ -1,4 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: com.example.DemoApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.422 sec - in com.example.DemoApplicationTests
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.739 sec <<< FAILURE! - in com.example.DemoApplicationTests
+contextLoads(com.example.DemoApplicationTests)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.fail(Assert.java:95)
+	at com.example.DemoApplicationTests.contextLoads(DemoApplicationTests.java:18)
+

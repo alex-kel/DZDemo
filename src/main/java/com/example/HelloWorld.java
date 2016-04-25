@@ -14,7 +14,7 @@ public class HelloWorld {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String helloWorld() {
-        return "Hello, World!";
+        return "Hello, Digital Zone!";
     }
 
     @RequestMapping(value = "/{name}", method = RequestMethod.GET)

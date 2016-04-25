@@ -16,4 +16,9 @@ public class HelloWorld {
     public String helloWorld() {
         return "Hello, World!";
     }
+
+    @RequestMapping(value = "/{name}", method = RequestMethod.GET)
+    public String sayName(@PathVariable String name) {
+        return "Hi, " + name;
+    }
 }

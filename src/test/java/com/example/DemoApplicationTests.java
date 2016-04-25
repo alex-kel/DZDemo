@@ -18,4 +18,9 @@ public class DemoApplicationTests {
 
 	}
 
+	@Test
+	public void shoulFail() {
+		fail();
+	}
+
 }
